@@ -273,6 +273,168 @@ button {
     margin: 20px 0;
 }
 
+@media (max-width:920px) {
+    .section {
+        width: 100%;
+        height: auto;
+    }
+
+    .first-h1 {
+        font-size: 140px;
+        height: 200px;
+        align-items: center;
+        padding: 0;
+        display: flex;
+    }
+
+    .second-h1 {
+        display: none;
+    }
+
+
+    .third-h1 {
+        top: 44px;
+        left: 482px;
+    }
+
+    .section-2 {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .sec-2-first {
+        width: 100%;
+        height: auto;
+    }
+
+    .uper {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .uper a {
+        background-color: red;
+        margin: 0 0 50px 0;
+
+    }
+
+    .uper p {
+        width: auto;
+    }
+
+    .down {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .down span:first-child {
+        transform: none;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    #pc-img {
+        display: none;
+    }
+
+    #pc-img2 {
+        display: none;
+    }
+
+    .res-img1 {
+        display: block;
+        width: 400px;
+        position: absolute
+    }
+
+    .res-img2 {
+        position: absolute;
+        width: 400px;
+        right: 30px;
+        display: block;
+    }
+
+
+    .first-span h1 {
+        font-weight: 900;
+        font-size: 45px;
+        position: static;
+        transform: none;
+        padding: 20px;
+    }
+
+    .first-span p {
+        position: static;
+        transform: none;
+        color: orange;
+        font-size: 20px;
+    }
+
+    .down span:last-child {
+        transform: none;
+        width: 100%;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .second-span h1 {
+        transform: none;
+        position: static;
+        padding: 20px;
+
+    }
+
+    .second-span p {
+        transform: none;
+        position: static;
+        color: white;
+        font-size: 20px;
+    }
+
+    .sec-2-second {
+        overflow: hidden;
+    }
+
+    .sec-2-third {
+        width: 100%;
+        height: auto;
+        min-height: 300px;
+    }
+
+    .third-first {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    #h1 {
+        display: none;
+    }
+
+    .third-second {
+        width: 100%;
+        padding: 0;
+    }
+
+    #last-h1 {
+        font-size: 60px;
+        display: block;
+    }
+}
+
 @media (max-width:768px) {
     .section {
         width: 100%;
