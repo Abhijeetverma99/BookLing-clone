@@ -598,6 +598,42 @@ button {
 
 }
 
+@media (max-width:500px) {
+    .first-h1 {
+        font-size: 60px;
+    }
+
+    .third-h1 {
+        display: none;
+    }
+
+    #nav-li {
+        display: none;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    nav ul:last-child {
+        justify-content: flex-end;
+    }
+
+    .section {
+        align-items: flex-end;
+    }
+
+    #login {
+        display: block;
+        position: absolute;
+        top: 20px;
+        background-color: cadetblue;
+        padding: 0 15px 3px 15px;
+        border-radius: 20px;
+    }
+
+    #last-h1 {
+        text-align: center;
+    }
+}
 
 
 @media (max-width:480px) {
